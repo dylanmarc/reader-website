@@ -22,7 +22,6 @@
 
     <script>
         var txtInput = document.querySelector('#txtInput');
-        console.log(txtInput);
         var voiceList = document.querySelector('#voiceList');
         var btnSpeak = document.querySelector('#btnSpeak');
         var synth = window.speechSynthesis;
@@ -32,7 +31,6 @@
         if(speechSynthesis !== undefined){
             speechSynthesis.onvoiceschanged = PopulateVoices;
         }
-        
 
         btnSpeak.addEventListener('click', ()=> {
             runSpeak(txtInput.value);

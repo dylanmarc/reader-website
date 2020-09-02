@@ -1,3 +1,40 @@
+html{
+  background-color: #153640;
+}
 .main{
   text-align: center;
+  margin: auto;
+  color: white;
+}
+h1{
+  font-size: 40pt;
+  width: 700px;
+  margin: 40px auto auto auto;
+  padding: 15px 25px 15px;
+  border-radius: 20px;
+}
+h2{
+  font-size: 25pt;
+  width: 600px;
+  margin: 40px auto auto auto;
+  padding: 15px 25px 15px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+p{
+  font-size: 20pt;
+  transition: 1s;
+  border-radius: 20px;
+  width: 500px;
+  margin: 40px auto auto auto;
+  padding: 15px 25px 15px;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+h2:hover, p:hover{
+  transition: 3s;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+}
+.reading{
+  background-color: #4F737D;
+  transition: 1s;
 }
